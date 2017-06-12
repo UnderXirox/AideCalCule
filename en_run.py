@@ -10,13 +10,13 @@ import sys
 done = False
 
 if len(sys.argv) > 1:
-    prodmax = int(sys.argv[1])
+    probmax = int(sys.argv[1])
 else:
-    prodmax = 10
+    probmax = 10
 
 while not done:
-    factor1 = random.randrange(prodmax)
-    factor2 = random.randrange(prodmax)
+    factor1 = random.randrange(probmax)
+    factor2 = random.randrange(probmax)
     answer = -10000
     while int(answer) != factor1 * factor2:
         prompt = "%d x %d = " % (factor1, factor2)
