@@ -26,12 +26,12 @@ while not done:
                 done = True
                 break
             elif int(answer) != factor1 * factor2:
-                print ("Hrm, try that again...  \n Hrm, réessayez ...")
+                print ("Hrm, réessayez ...")
         except:
-            print ("What? I didn't understand you. Type 'q' to quit.\n Quoi? Je ne vous ai pas compris. Tapez 'q' pour quitter.")
+            print ("Quoi? Je ne vous ai pas compris. Tapez 'q' pour quitter.")
             answer = -10000
     if not done:
-        print ("Great job! Now for another one...!!!! \n Bon travail! Maintenant pour un autre ...")
+        print ("Bon travail! Maintenant pour un autre ...")
     else:
-        print ("See ya next time! \n  A la prochaine fois!")
+        print ("A la prochaine fois!")
 
